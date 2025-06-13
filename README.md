@@ -39,7 +39,7 @@
 ![Screenshot (10)](https://github.com/user-attachments/assets/bf553772-b043-4f23-a5ab-f23128a060ed)
 
 ## EXPLANATION
-
+Firstly creating an key pair value beacuse to have security credentials and name it as KP and after creating 
 
 
 ### Building a Two-Tier Web Application Infrastructure
