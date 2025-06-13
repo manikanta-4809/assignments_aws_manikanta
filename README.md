@@ -10,8 +10,6 @@
 
 ![Screenshot (3)](https://github.com/user-attachments/assets/dc402704-5c0c-44da-9490-2bf205c631ed)
 
-![Screenshot (12)](https://github.com/user-attachments/assets/8e98e539-118d-41f6-ad66-407893971044)
-
 3.Creating Public Subnet
 
 ![Screenshot (4)](https://github.com/user-attachments/assets/1dea9cec-60ec-4d5e-a5a7-2dbf7b829760)
@@ -37,10 +35,13 @@
 8.Accessing the Public in Browser
 
 ![Screenshot (10)](https://github.com/user-attachments/assets/bf553772-b043-4f23-a5ab-f23128a060ed)
+9.vpc resource map
+
+![Screenshot (12)](https://github.com/user-attachments/assets/8e98e539-118d-41f6-ad66-407893971044)
+
 
 ## EXPLANATION
-Firstly creating an key pair value beacuse to have security credentials and name it as KP and after creating 
-
+First creating a key pair named KP to securely access my EC2 instance via SSH,making sure to save the private key safely. Then,i set up a custom VPC to keep my resources organized and isolated. Inside the VPC,i created a public subnet, configuring it to automatically assign public IPs to any instances i launch there. Next,i built an internet gateway and attached it to my VPC,enabling internet connectivity. To route traffic,i crafted a public route table, added a route directing all outbound traffic (0.0.0.0/0) to the internet gateway,and linked it to my public subnet.After that,i created  a security group to control access, allowing HTTP traffic on port 80 for web access and SSH on port 22 for secure connections.In the AWS VPC console,i checked the resource map to confirm that my VPC,subnet,internet gateway,and route table were all connected perfectly.Then,i launched an EC2 instance in my public subnet,selecting my KP key pair,the public subnet,and the security group i created.i enabled auto-assign public IP and added a user data script to install Apache and serve a custom webpage with a welcome message. Once the instance was running,i used public IP and opened site in my browser—using http since i dont have acces to https port.My webpage loaded successfully.
 
 ### Building a Two-Tier Web Application Infrastructure
 
