@@ -46,53 +46,29 @@ First creating a key pair named KP to securely access my ec2 instance via ssh,ma
 ### Building a Two-Tier Web Application Infrastructure
 
 1.Creating a VPC named two-tier-vpc
-
-![Screenshot (15)](https://github.com/user-attachments/assets/1e1da4ca-ca86-45d1-a5c8-4c60935176d7)
-
 2.Creating Public and Private Subnet
-
-![Screenshot (19)](https://github.com/user-attachments/assets/855ff4db-2aba-44de-8a6b-543b75bcc174)
-
 3.Creating Internet Gateway and Attaching to VPC
-
-![Screenshot (20)](https://github.com/user-attachments/assets/a9f8679d-d21e-4c75-82dd-c6aead43748d)
-
-![Screenshot (21)](https://github.com/user-attachments/assets/b65468a4-cac3-4987-8241-d4ccf03beaa7)
-
-
 4.Creating Route Table
-
-![Screenshot (22)](https://github.com/user-attachments/assets/3e45f9eb-49be-4763-8b9b-e38b6820cd55)
-
-![Screenshot (24)](https://github.com/user-attachments/assets/303b23ae-b780-44cf-9d25-4f89e555b1d2)
-
 5.Creating Security Group
-
-![Screenshot (26)](https://github.com/user-attachments/assets/dce74298-29c3-4be2-8891-79e392b1e221)
-
-![Screenshot (44)](https://github.com/user-attachments/assets/8172057f-7b38-45af-95d9-8b91b41612ff)
-
 6.VPC Resource Map
-
-![Screenshot (45)](https://github.com/user-attachments/assets/e28c6259-91b7-4cd7-ad0a-51c129994ff9)
 
 ## DELIVERABLES
 
-7.EC2 Instance
+1.EC2 Instance
 
 ![Screenshot (41)](https://github.com/user-attachments/assets/08f6e331-e7af-4023-9057-02ebf1b0ff9d)
 
 ![Screenshot (42)](https://github.com/user-attachments/assets/f69f9d19-8d2e-49fb-b75e-6f35d2b7703a)
 
-8.Accessing the Public in Browser
+2.Accessing the Public in Browser
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/79873252-3560-4c0f-bb75-4a7222c7515b)
 
-9.From web_server,Trying Private IP of db_server(PING)
+3.From web_server,Trying Private IP of db_server(PING)
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/0e8e4aed-c5c9-4785-9ef9-e7a88513d870)
 
-10.Private Inbound Rule
+4.Private Inbound Rule
 
 ![image](https://github.com/user-attachments/assets/5a4659c7-80fc-4054-959a-1cba82a3b738)
 
