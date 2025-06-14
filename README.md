@@ -92,6 +92,11 @@ First creating a key pair named KP to securely access my ec2 instance via ssh,ma
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/0e8e4aed-c5c9-4785-9ef9-e7a88513d870)
 
+10.Private Inbound Rule
+
+![image](https://github.com/user-attachments/assets/5a4659c7-80fc-4054-959a-1cba82a3b738)
+
+
 
 
 
